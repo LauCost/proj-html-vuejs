@@ -49,8 +49,7 @@ export default {
 
 <style lang="scss">
 .card_fod {
-  width: 33.33%;
-  margin-right: 10px;
+  width: 33%;
   background-color: #1e3120;
   background-image: url(../../../assets/img/bg-transparent-3.png);
   background-position: top;
@@ -79,9 +78,13 @@ export default {
     padding: 15px 35px;
     border-radius: 50px;
     color: #fff;
-    background-color: #3d6f42;
+    background-color: #409ad3;
     margin-bottom: 70px;
     font-weight: bold;
+  }
+
+  button:hover {
+    cursor: pointer;
   }
 }
 

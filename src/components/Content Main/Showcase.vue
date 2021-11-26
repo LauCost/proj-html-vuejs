@@ -9,18 +9,21 @@
     </div>
     <Catalog />
     <Food />
+    <NewWeekly />
   </div>
 </template>
 
 <script>
 import Catalog from "./Content Show Case/Catalog.vue";
 import Food from "./Content Show Case/Food.vue";
+import NewWeekly from "./Content Show Case/NewWeekly.vue";
 export default {
   name: "Showcase",
 
   components: {
     Catalog,
     Food,
+    NewWeekly,
   },
 };
 </script>

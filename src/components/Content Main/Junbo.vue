@@ -109,6 +109,7 @@ export default {
     color: #fff;
     font-weight: bold;
     font-size: 13px;
+    font-family: "Padauk", sans-serif;
   }
 
   button {

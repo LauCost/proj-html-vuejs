@@ -46,13 +46,12 @@ export default {
 <style lang="scss">
 .category {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   padding-bottom: 70px;
 }
 .production {
   text-align: center;
-  width: 25%;
-  margin-right: 10px;
+  width: 24%;
 
   img {
     width: 100%;
