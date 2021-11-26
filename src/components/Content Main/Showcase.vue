@@ -10,6 +10,7 @@
     <Catalog />
     <Food />
     <NewWeekly />
+    <BestSeller />
   </div>
 </template>
 
@@ -17,6 +18,7 @@
 import Catalog from "./Content Show Case/Catalog.vue";
 import Food from "./Content Show Case/Food.vue";
 import NewWeekly from "./Content Show Case/NewWeekly.vue";
+import BestSeller from "./Content Show Case/BestSeller.vue";
 export default {
   name: "Showcase",
 
@@ -24,6 +26,7 @@ export default {
     Catalog,
     Food,
     NewWeekly,
+    BestSeller,
   },
 };
 </script>
