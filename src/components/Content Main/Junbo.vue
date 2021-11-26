@@ -73,7 +73,7 @@ export default {
 .uno,
 .due {
   background-color: #fff;
-  margin: 10px 0;
+  margin: 2px 0;
   width: 70px;
   height: 60px;
   border-radius: 7px;
