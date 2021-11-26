@@ -1,10 +1,18 @@
 <template>
-  <div></div>
+  <main>
+    <Junbo />
+  </main>
 </template>
 
 <script>
+import Junbo from "./Content Main/Junbo.vue";
+
 export default {
   name: "Main",
+
+  components: {
+    Junbo,
+  },
 };
 </script>
 
