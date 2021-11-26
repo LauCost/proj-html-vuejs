@@ -35,23 +35,23 @@ export default {
         {
           name: "Transport cage",
           price: "25.00",
-          image: require("../../../assets/img/product-21-200x200.jpg"),
+          image: require("../../../assets/img/product-21-400x400.jpg"),
         },
         {
           name: "Dog leash",
           price: "25.00",
-          image: require("../../../assets/img/product-20-200x200.jpg"),
+          image: require("../../../assets/img/product-20-400x400.jpg"),
         },
         {
           name: "Animal transport cage",
           price: "35.00",
           discounted: "25.00",
-          image: require("../../../assets/img/product-16-200x200.jpg"),
+          image: require("../../../assets/img/product-16-400x400.jpg"),
         },
         {
           name: "Colorful cat leash",
           price: "12.00",
-          image: require("../../../assets/img/product-11-200x200.jpg"),
+          image: require("../../../assets/img/product-11-400x400.jpg"),
         },
       ],
     };
