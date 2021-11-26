@@ -14,13 +14,21 @@
   align-items: center;
   background-color: #f3f4f3;
   border: none;
-  padding: 15px;
+  padding: 5px;
   border-radius: 50px;
+
+  i {
+    margin-left: 10px;
+  }
   input {
     width: 300px;
+    padding: 10px;
     border: none;
+    border-radius: 50px;
     margin-left: 10px;
     background-color: #f3f4f3;
+    font-size: 18px;
+    color: #9ca7ab;
   }
 }
 </style>

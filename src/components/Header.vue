@@ -5,6 +5,12 @@
         <img src="../assets/img/dark-pet-logo.png" alt="" />
       </div>
       <Search />
+      <div class="question">
+        <p><span>Question?</span> Call us : 1.800.123.4567</p>
+      </div>
+      <div class="icons">
+        <i class="far fa-user"></i>
+      </div>
     </div>
   </header>
 </template>
@@ -34,5 +40,17 @@ export default {
 .flex_space_between {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.question {
+  p {
+    font-size: 18px;
+    color: black;
+  }
+
+  span {
+    font-weight: bold;
+  }
 }
 </style>
