@@ -1,5 +1,14 @@
 <template>
   <div class="back_green">
+    <div class="test">
+      <div class="uno"><p>Demons</p></div>
+      <div class="due">
+        <p>
+          $ <span>39</span> <br />
+          on sale
+        </p>
+      </div>
+    </div>
     <div class="cont_50 flex_space_between">
       <p class="info_junbo">
         <span> <i class="far fa-map"></i> International </span>
@@ -22,7 +31,16 @@
           We Know animals are a part of your family, let us help take care of
           them.
         </h2>
+        <button>Learn more about us</button>
       </div>
+    </div>
+    <div class="offert">
+      <img src="../../assets/img/food-transparent-5-200x112.png" alt="" />
+
+      <p>
+        Get $25 OFF your first purchase of our homemade pet food!
+        <span>Visit the shop</span>
+      </p>
     </div>
   </div>
 </template>
@@ -40,6 +58,32 @@ export default {
 .back_green {
   background-color: #1e3120;
   background-image: url(../../assets/img/bg-transparent-3.png);
+  position: relative;
+}
+
+.test {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 1%;
+  right: 0.5%;
+  transform: translate(0%, 0%);
+}
+
+.uno,
+.due {
+  background-color: #fff;
+  margin: 10px 0;
+  width: 70px;
+  height: 60px;
+  border-radius: 7px;
+  text-align: center;
+
+  p {
+    span {
+      font-size: 30px;
+    }
+  }
 }
 
 .cont_50 {
@@ -51,13 +95,32 @@ export default {
 .cont_70_pad {
   width: 70%;
   margin: auto;
-  padding: 250px 0;
+  padding: 280px 0;
 
   h2 {
     color: #fff;
     font-size: 50px;
     width: 38%;
     font-family: "Playfair Display", serif;
+    margin: 30px 0;
+  }
+
+  p {
+    color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+  }
+
+  button {
+    border: none;
+    padding: 10px 25px;
+    border-radius: 50px;
+    color: #4c2038;
+    font-weight: bold;
+  }
+
+  button:hover {
+    cursor: pointer;
   }
 }
 
@@ -70,8 +133,28 @@ export default {
 }
 
 .junboImg {
-  background-image: url(../../assets/img/demo-pet-supplies.jpg);
+  background-image: url(../../assets/img/banner-5-2x-scaled.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.offert {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding-top: 15px;
+  color: #fff;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+
+  p {
+    margin-left: 20px;
+  }
+  span {
+    margin-left: 20px;
+    text-decoration: underline;
+    color: #8b9989;
+  }
 }
 </style>
