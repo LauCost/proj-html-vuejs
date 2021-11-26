@@ -8,16 +8,19 @@
       </p>
     </div>
     <Catalog />
+    <Food />
   </div>
 </template>
 
 <script>
 import Catalog from "./Content Show Case/Catalog.vue";
+import Food from "./Content Show Case/Food.vue";
 export default {
   name: "Showcase",
 
   components: {
     Catalog,
+    Food,
   },
 };
 </script>
