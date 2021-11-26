@@ -12,6 +12,8 @@
         <i class="far fa-user"></i>
       </div>
     </div>
+    <hr />
+    <NavBar />
   </header>
 </template>
 
@@ -19,11 +21,14 @@
 
 <script>
 import Search from "./Content Header/SearchBar.vue";
+import NavBar from "./Content Header/NavvBar.vue";
+
 export default {
   name: "Header",
 
   components: {
     Search,
+    NavBar,
   },
 };
 </script>
@@ -37,6 +42,9 @@ export default {
   margin: 20px auto;
 }
 
+hr {
+  border: 1px solid #f9f9f9;
+}
 .flex_space_between {
   display: flex;
   justify-content: space-between;
