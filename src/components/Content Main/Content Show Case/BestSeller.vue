@@ -103,15 +103,16 @@ export default {
     color: #000000;
     margin-top: 20px;
   }
+}
 
-  .price {
-    font-size: 18px;
+.price {
+  font-size: 18px;
+  color: #2f6c00;
 
-    span {
-      font-size: 15px;
-      margin-right: 10px;
-      text-decoration: line-through;
-    }
+  span {
+    font-size: 15px;
+    margin-right: 10px;
+    text-decoration: line-through;
   }
 }
 </style>

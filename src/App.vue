@@ -56,4 +56,8 @@ export default {
   display: flex;
   justify-content: space-between;
 }
+
+.justy_between {
+  justify-content: space-between;
+}
 </style>
