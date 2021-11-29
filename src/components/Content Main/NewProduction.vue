@@ -8,16 +8,33 @@
         v-for="newProduction in newProductions"
         :key="newProduction.id"
       >
-        <img :src="newProduction.image" alt="" />
-        <p class="title_new_production">
-          {{ newProduction.title }}
-        </p>
-        <p class="price" v-if="newProduction.newPrice == '18.00'">
-          <span> ${{ newProduction.price }} </span>
+        <div v-if="newProduction.newPrice != ''">
+          <div class="prova">
+            <img :src="newProduction.image" alt="" />
+            <span class="sale">Sale!</span>
+          </div>
+          <p class="title_new_production">
+            {{ newProduction.title }}
+          </p>
+          <p class="price" v-if="newProduction.newPrice != ''">
+            <span> ${{ newProduction.price }} </span>
 
-          ${{ newProduction.newPrice }}
-        </p>
-        <p class="price" v-else>${{ newProduction.price }}</p>
+            ${{ newProduction.newPrice }}
+          </p>
+          <p class="price" v-else>${{ newProduction.price }}</p>
+        </div>
+        <div v-else>
+          <img :src="newProduction.image" alt="" />
+          <p class="title_new_production">
+            {{ newProduction.title }}
+          </p>
+          <p class="price" v-if="newProduction.newPrice == '18.00'">
+            <span> ${{ newProduction.price }} </span>
+
+            ${{ newProduction.newPrice }}
+          </p>
+          <p class="price" v-else>${{ newProduction.price }}</p>
+        </div>
       </div>
     </div>
   </div>
@@ -35,12 +52,14 @@ export default {
           image: require("../../assets/img/product-8-500x500.jpg"),
           title: "Colored pet bed",
           price: "18.00 - $26.00",
+          newPrice: "",
         },
         {
           id: 2,
           image: require("../../assets/img/product-2-500x500.jpg"),
           title: "Colorful ball set",
           price: "29.00",
+          newPrice: "",
         },
         {
           id: 3,
@@ -54,18 +73,21 @@ export default {
           image: require("../../assets/img/product-4-500x500.jpg"),
           title: "Animal trasport bag",
           price: "29.00",
+          newPrice: "",
         },
         {
           id: 5,
           image: require("../../assets/img/product-5-500x500.jpg"),
           title: "Animal transport cage",
           price: "35.00",
+          newPrice: "",
         },
         {
           id: 6,
           image: require("../../assets/img/product-10-500x500.jpg"),
           title: "Closable cat",
           price: "16.00",
+          newPrice: "",
         },
       ],
     };
@@ -108,6 +130,22 @@ export default {
     font-size: 20px;
     font-weight: bold;
     margin: 25px 0;
+  }
+}
+
+.prova {
+  position: relative;
+
+  .sale {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    background-color: #3d6f42;
+    padding: 5px 10px;
+    border-radius: 50%;
+    color: #fff;
+    transform: translate(0, 0);
+    font-weight: bold;
   }
 }
 </style>

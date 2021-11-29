@@ -50,5 +50,9 @@ export default {
     right: 1%;
     transform: translate(-99%, 0);
   }
+
+  .up:hover {
+    cursor: pointer;
+  }
 }
 </style>
