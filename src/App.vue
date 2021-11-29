@@ -35,7 +35,14 @@ export default {
 
 .cont_70 {
   width: 70%;
+}
+
+.margin_auto {
   margin: 20px auto;
+}
+
+.margin_center {
+  margin: auto;
 }
 
 .back_repeat_x {

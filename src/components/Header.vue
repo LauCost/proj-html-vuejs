@@ -1,6 +1,6 @@
 <template>
   <header>
-    <div class="cont_70 flex_space_between">
+    <div class="cont_70 flex_space_between margin_auto">
       <div class="logo">
         <img src="../assets/img/dark-pet-logo.png" alt="" />
       </div>

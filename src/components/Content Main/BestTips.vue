@@ -1,7 +1,7 @@
 <template>
   <div class="position">
     <NewsLetter />
-    <div class="cont_70 padding">
+    <div class="cont_70 padding margin_auto">
       <h2>Get the best tips & tricks</h2>
       <p class="sub_title">Recent articles</p>
       <div class="flex_space_between">

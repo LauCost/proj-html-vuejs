@@ -1,5 +1,5 @@
 <template>
-  <div class="cont_70 flex_center">
+  <div class="cont_70 flex_center margin_auto">
     <nav class="flex">
       <div v-for="link in nav" :key="link.name">
         <a

@@ -1,5 +1,5 @@
 <template>
-  <div class="cont_70">
+  <div class="cont_70 margin_auto">
     <div class="info_show">
       <h2>Browse by category</h2>
       <p>

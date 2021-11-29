@@ -1,5 +1,5 @@
 <template>
-  <div class="cont_70 cont_new_production">
+  <div class="cont_70 margin_auto cont_new_production">
     <h2>New products arrival</h2>
     <p class="subtitle_new_production">Latest products</p>
     <div class="flex justy_between">

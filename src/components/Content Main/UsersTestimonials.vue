@@ -1,7 +1,7 @@
 <template>
   <div class="back_green text_center back_repeat_x">
     <h2>Users testimonials</h2>
-    <div class="cont_70 category">
+    <div class="cont_70 margin_auto category">
       <div class="testimonial" v-for="user in users" :key="user.id">
         <img :src="user.image" alt="" />
         <p class="text_testimonial">
