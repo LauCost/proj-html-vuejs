@@ -46,4 +46,9 @@ export default {
   background-color: #1e3120;
   background-image: url(./assets/img/bg-transparent-3.png);
 }
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
 </style>
