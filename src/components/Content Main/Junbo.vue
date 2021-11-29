@@ -1,14 +1,5 @@
 <template>
   <div class="back_green">
-    <div class="test">
-      <div class="uno"><p>Demons</p></div>
-      <div class="due">
-        <p>
-          $ <span>39</span> <br />
-          on sale
-        </p>
-      </div>
-    </div>
     <div class="cont_50 flex_space_between">
       <p class="info_junbo">
         <span> <i class="far fa-map"></i> International </span>
@@ -55,36 +46,6 @@ export default {
 
 <style lang="scss">
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@200&display=swap");
-.back_green {
-  background-color: #1e3120;
-  background-image: url(../../assets/img/bg-transparent-3.png);
-  position: relative;
-}
-
-.test {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 1%;
-  right: 0.5%;
-  transform: translate(0%, 0%);
-}
-
-.uno,
-.due {
-  background-color: #fff;
-  margin: 2px 0;
-  width: 70px;
-  height: 60px;
-  border-radius: 7px;
-  text-align: center;
-
-  p {
-    span {
-      font-size: 30px;
-    }
-  }
-}
 
 .cont_50 {
   width: 50%;

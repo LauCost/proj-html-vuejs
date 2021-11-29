@@ -37,11 +37,6 @@ export default {
 
 
 <style lang="scss">
-.cont_70 {
-  width: 70%;
-  margin: 20px auto;
-}
-
 hr {
   border: 1px solid #f9f9f9;
 }

@@ -31,4 +31,18 @@ export default {
   box-sizing: border-box;
   font-family: "Source Sans Pro", sans-serif;
 }
+
+.cont_70 {
+  width: 70%;
+  margin: 20px auto;
+}
+
+.back_repeat_x {
+  background-repeat: repeat-x;
+}
+
+.back_green {
+  background-color: #1e3120;
+  background-image: url(./assets/img/bg-transparent-3.png);
+}
 </style>
