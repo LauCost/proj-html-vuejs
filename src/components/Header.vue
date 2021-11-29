@@ -9,6 +9,7 @@
         <p><span>Question?</span> Call us : 1.800.123.4567</p>
       </div>
       <div class="icons">
+        <i class="fas fa-shopping-bag"></i>
         <i class="far fa-user"></i>
       </div>
     </div>
@@ -54,6 +55,12 @@ hr {
 
   span {
     font-weight: bold;
+  }
+}
+
+.icons {
+  i {
+    margin-right: 10px;
   }
 }
 </style>
