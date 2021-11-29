@@ -51,4 +51,9 @@ export default {
   display: flex;
   flex-wrap: wrap;
 }
+
+.flex_between {
+  display: flex;
+  justify-content: space-between;
+}
 </style>

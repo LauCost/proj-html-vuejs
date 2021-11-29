@@ -58,7 +58,7 @@ export default {
     position: absolute;
     top: 45%;
     left: 50%;
-    transform: translate(-50%, -60%);
+    transform: translate(-50%, -55%);
     display: flex;
     flex-direction: column;
     align-items: center;
