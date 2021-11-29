@@ -24,6 +24,7 @@ export default {
 <style lang="scss">
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Padauk&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Domine&display=swap");
 
 * {
   margin: 0;

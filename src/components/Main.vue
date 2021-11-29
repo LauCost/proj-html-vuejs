@@ -3,6 +3,7 @@
     <Junbo />
     <ShowCase />
     <UsersTestimonials />
+    <BestTips />
   </main>
 </template>
 
@@ -10,6 +11,7 @@
 import Junbo from "./Content Main/Junbo.vue";
 import ShowCase from "./Content Main/Showcase.vue";
 import UsersTestimonials from "./Content Main/UsersTestimonials.vue";
+import BestTips from "./Content Main/BestTips.vue";
 
 export default {
   name: "Main",
@@ -18,6 +20,7 @@ export default {
     Junbo,
     ShowCase,
     UsersTestimonials,
+    BestTips,
   },
 };
 </script>
